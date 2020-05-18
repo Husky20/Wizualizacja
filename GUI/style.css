@@ -1,0 +1,32 @@
+body{
+	background-color: #111111;
+}
+.container{
+	margin: auto;
+}
+selection.on('mouseover', function() {
+  d3.select('circle')
+    .style('fill', 'config.colour')
+}
+g > text.active {
+font-size: 30px;
+}
+.tab {
+    position:fixed;
+    left:20px;
+    top:20px;
+    z-index:1;
+    background: white;
+    border: 1px black solid;
+  }
+  
+  tr {
+    border: 1px gray solid;
+  }
+
+  td {
+    font-size: 10px;
+  }
+  td.data {
+    font-weight: 900;
+  }
