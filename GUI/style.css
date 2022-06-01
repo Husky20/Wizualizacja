@@ -7,7 +7,7 @@ body{
 selection.on('mouseover', function() {
   d3.select('circle')
     .style('fill', 'config.colour')
-}
+})
 g > text.active {
 font-size: 30px;
 }
